@@ -17,6 +17,14 @@
       <sprite>sprites\spr_temas_circus</sprite>
       <sprite>sprites\spr_temas_chooses_black</sprite>
     </sprites>
+    <sprites name="transito">
+      <sprite>sprites\spr_transito_correct</sprite>
+      <sprite>sprites\spr_transito_incorrect</sprite>
+      <sprite>sprites\spr_transito_image0</sprite>
+      <sprite>sprites\spr_transito_image1</sprite>
+      <sprite>sprites\spr_transito_image2</sprite>
+      <sprite>sprites\spr_transito_image3</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temas</background>
@@ -44,13 +52,23 @@
       <object>objects\obj_temas_chooses_black</object>
     </objects>
     <objects name="transito">
-      <object>objects\obj_transito_controller</object>
+      <object>objects\obj_transito_correct</object>
+      <object>objects\obj_transito_incorrect</object>
+      <object>objects\obj_transito_0</object>
+      <object>objects\obj_transito_1</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initial</room>
     <room>rooms\rm_temas</room>
-    <room>rooms\rm_transito</room>
+    <rooms name="coleta">
+      <room>rooms\rm_coleta</room>
+      <room>rooms\rm_coleta0</room>
+    </rooms>
+    <rooms name="transito">
+      <room>rooms\rm_transito0</room>
+      <room>rooms\room_transito1</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

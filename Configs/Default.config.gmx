@@ -2,7 +2,7 @@
 <Config>
   <Options>
     <option_aborterrors>False</option_aborterrors>
-    <option_android_GPU_device>0</option_android_GPU_device>
+    <option_android_GPU_device>1</option_android_GPU_device>
     <option_android_adcolony_enable_V4VC>0</option_android_adcolony_enable_V4VC>
     <option_android_advertising_enable>0</option_android_advertising_enable>
     <option_android_advertising_key></option_android_advertising_key>
@@ -21,13 +21,13 @@
     <option_android_arch_x86>True</option_android_arch_x86>
     <option_android_build_version>0</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
-    <option_android_display_name>GeracaoLimpa</option_android_display_name>
+    <option_android_display_name>Geracao Limpa</option_android_display_name>
     <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
     <option_android_google_play>0</option_android_google_play>
     <option_android_google_play_id></option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
     <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
-    <option_android_icade_support>-1</option_android_icade_support>
+    <option_android_icade_support>0</option_android_icade_support>
     <option_android_icon_hdpi>Configs\Default\android\icons\icon_hdpi.png</option_android_icon_hdpi>
     <option_android_icon_ldpi>Configs\Default\android\icons\icon_ldpi.png</option_android_icon_ldpi>
     <option_android_icon_mdpi>Configs\Default\android\icons\icon_mdpi.png</option_android_icon_mdpi>
@@ -49,7 +49,7 @@
     <option_android_package_company>companyname</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
     <option_android_package_product>GeracaoLimpa</option_android_package_product>
-    <option_android_permission_flags>8</option_android_permission_flags>
+    <option_android_permission_flags>0</option_android_permission_flags>
     <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
     <option_android_pocketchange_id></option_android_pocketchange_id>
     <option_android_pocketchange_test_enable>0</option_android_pocketchange_test_enable>
