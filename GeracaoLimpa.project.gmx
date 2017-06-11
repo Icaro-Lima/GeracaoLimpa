@@ -6,13 +6,17 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_initial</sprite>
-    <sprite>sprites\spr_temas_effect</sprite>
-    <sprite>sprites\spr_temas_effect_mini</sprite>
-    <sprite>sprites\spr_temas_transito</sprite>
-    <sprite>sprites\spr_temas_cake</sprite>
-    <sprite>sprites\spr_temas_circus</sprite>
-    <sprite>sprites\spr_temas_chooses_black</sprite>
+    <sprites name="initial">
+      <sprite>sprites\spr_initial</sprite>
+    </sprites>
+    <sprites name="temas">
+      <sprite>sprites\spr_temas_effect</sprite>
+      <sprite>sprites\spr_temas_effect_mini</sprite>
+      <sprite>sprites\spr_temas_transito</sprite>
+      <sprite>sprites\spr_temas_cake</sprite>
+      <sprite>sprites\spr_temas_circus</sprite>
+      <sprite>sprites\spr_temas_chooses_black</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temas</background>
@@ -28,14 +32,20 @@
     <script>scripts\src_temas_chooses_mouse_left_pressed.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_initial</object>
-    <object>objects\obj_temas_effect_begin</object>
-    <object>objects\obj_temas_effect_begin_mini</object>
-    <object>objects\obj_temas_transito</object>
-    <object>objects\obj_temas_cake</object>
-    <object>objects\obj_temas_circus</object>
-    <object>objects\obj_temas_chooses_black</object>
-    <object>objects\obj_transito_controller</object>
+    <objects name="initial">
+      <object>objects\obj_initial</object>
+    </objects>
+    <objects name="temas">
+      <object>objects\obj_temas_effect_begin</object>
+      <object>objects\obj_temas_effect_begin_mini</object>
+      <object>objects\obj_temas_transito</object>
+      <object>objects\obj_temas_cake</object>
+      <object>objects\obj_temas_circus</object>
+      <object>objects\obj_temas_chooses_black</object>
+    </objects>
+    <objects name="transito">
+      <object>objects\obj_transito_controller</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initial</room>
